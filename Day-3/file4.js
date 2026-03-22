@@ -10,3 +10,17 @@ const max = nums.reduce((acc, curr) => {
 }, nums[0]);
 
 console.log(max); 
+
+
+
+
+
+const cart = [
+    { item: "Lipstick", price: 500 },
+    { item: "Perfume", price: 1500 },
+    { item: "Cream", price: 700 }
+];
+
+const total = cart.reduce((acc, curr) => acc + curr.price, 0);
+
+console.log(total); 

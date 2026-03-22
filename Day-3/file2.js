@@ -10,3 +10,13 @@ const names = ["a", "b", "c"];
 const upper = names.map(n => n.toUpperCase());
 
 console.log(upper);
+
+
+
+
+
+const prices = [100, 200, 300];
+
+const finalPrices = prices.map(price => price + price * 0.18);
+
+console.log(finalPrices); 
